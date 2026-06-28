@@ -283,7 +283,7 @@ More importantly, it reinforced an important lesson: in cybersecurity, knowing h
 
 ## References
 
-- [TryHackMe — Metasploit: Introduction](https://tryhackme.com/room/metasploitexploitation)
+- [TryHackMe — Metasploit: Exploitation](https://tryhackme.com/room/metasploitexploitation)
 - [Official Metasploit documentation](https://docs.metasploit.com/)
 - [Offensive Security — msfvenom](https://www.offensive-security.com/metasploit-unleashed/msfvenom/)
 - [`msfvenom` manual](https://www.kali.org/tools/metasploit-framework/#msfvenom)
