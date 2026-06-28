@@ -13,6 +13,7 @@
 ## Table of Contents
 
 - [Room objective](#room-objective)
+- [Skills Practiced](#skills-practiced)
 - [Environment setup](#environment-setup)
 - [Quick summary](#quick-summary)
 - [Step by step](#step-by-step)
