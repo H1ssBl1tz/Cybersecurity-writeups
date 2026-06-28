@@ -22,8 +22,9 @@
   - [4. Configure the multi/handler](#4-configure-the-multihandler)
   - [5. Run the payload on the victim machine](#5-run-the-payload-on-the-victim-machine)
   - [6. Post-exploitation — Linux hash dump](#6-post-exploitation--linux-hash-dump)
-- [Gotchas the room doesn't document](#gotchas-the-room-doesnt-document)
+- [Common Pitfalls](#common-pitfalls)
 - [Lessons learned](#lessons-learned)
+- [Final Thoughts](#final-thoughts)
 - [References](#references)
 
 ---
