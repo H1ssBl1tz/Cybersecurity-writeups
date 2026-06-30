@@ -1,4 +1,4 @@
-# TryHackMe — Metasploit: Introduction · Task 6 (Msfvenom)
+# TryHackMe — Metasploit: Exploitation · Task 6 (Msfvenom)
 
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)
 ![Room](https://img.shields.io/badge/Room-Metasploit_Introduction-blue)
